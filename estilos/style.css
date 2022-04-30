@@ -32,6 +32,12 @@ img.primeira {
     backface-visibility: hidden;
 }
 
+img.setas{
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+
 img.segunda{
     border-radius: 50%;
     width: 600px;
@@ -46,7 +52,7 @@ div.middle {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
-  }
+}
   
 .container:hover .primeira {
     opacity: 0.3;
@@ -78,4 +84,26 @@ div.segunda{
 div.tube{
     text-align: center;
     font-size: 35px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+div.esquerda{
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+div.direita{
+    width: 49%;
+    text-align: center;
+    float: right;
+}
+
+img.icone{
+    height: 50px;
+    width: 50px;
 }
