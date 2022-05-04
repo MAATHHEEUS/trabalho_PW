@@ -81,6 +81,7 @@ div.segunda{
     align-items: center;
     font-size: 25px;
 }
+
 div.tube{
     text-align: center;
     font-size: 35px;
@@ -89,6 +90,7 @@ div.tube{
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
+    font-size: 20px;
 }
 
 div.esquerda{
@@ -106,4 +108,22 @@ div.direita{
 img.icone{
     height: 50px;
     width: 50px;
+}
+
+div.album{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    position: relative;
+    border: 3px solid white;
+    width: 80%;
+    border-radius: 25px;
+}
+
+img.album{
+    width: 180px;
+    height: 200px;
+    border-radius: 25px;
+    opacity: 0.7;
 }
